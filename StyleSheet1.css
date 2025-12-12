@@ -4,7 +4,7 @@
     background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 header {
@@ -26,6 +26,7 @@ header {
         text-transform: uppercase;
         font-weight: bold;
     }
+
 nav ul {
     list-style: none;
     background: rgba(255, 255, 255, 0.6);
@@ -43,7 +44,7 @@ nav li {
 nav a {
     color: black;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 20px;
     font-weight: bold;
     padding: 8px 15px;
 }
@@ -54,7 +55,7 @@ nav a {
 
 section {
     width: 80%;
-    background: rgba(255, 255, 255, 0.65); 
+    background: rgba(255, 255, 255, 0.65);
     padding: 20px;
     margin: 25px auto;
     border-radius: 10px;
@@ -68,7 +69,7 @@ section {
     background: rgba(255, 255, 255, 0.75);
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-    text-align: center; 
+    text-align: center;
 }
 
     #about-restaurant h2 {
@@ -101,7 +102,7 @@ td {
 }
 
 input, textarea {
-    width: 100%;
+    width: 1180px;
     padding: 10px;
     margin-top: 8px;
 }
@@ -117,15 +118,25 @@ input, textarea {
         background: #e6b800;
     }
 
+.to-top {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+    .to-top:hover {
+        text-decoration: underline;
+    }
+
+
 footer {
     background: #e8e3e3;
     color: black;
     text-align: center;
     padding: 15px;
-}
-
-.to-top {
-    color: #f6f3c0;
 }
 
 .gallery {
@@ -137,11 +148,12 @@ footer {
 
     .gallery img {
         width: 250px;
-        height: 250px; 
+        height: 250px;
         object-fit: cover;
         border-radius: 8px;
         box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     }
+
 #about {
     max-width: 900px;
     margin: 30px auto;
@@ -156,6 +168,7 @@ footer {
         margin-bottom: 20px;
         color: black;
     }
+
     #about h3 {
         font-size: 25px;
         margin-bottom: 20px;
@@ -179,3 +192,4 @@ footer {
             margin-bottom: 10px;
             color: black;
         }
+
