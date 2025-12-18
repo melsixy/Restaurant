@@ -54,7 +54,7 @@ nav a {
     }
 
 section {
-    width: 80%;
+    width: 1200px;
     background: rgba(255, 255, 255, 0.65);
     padding: 20px;
     margin: 25px auto;
@@ -109,16 +109,17 @@ input, textarea {
 
 .btn {
     background: #5bc8e9;
-    border: none;
-    padding: 10px 15px;
-    margin-top: 10px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
     .btn:hover {
-        background: #e6b800;
+        background: #e6d583;
     }
 
 .to-top {
+    font-size:15px;
     display: block;
     margin-top: 20px;
     text-align: center;
@@ -129,6 +130,7 @@ input, textarea {
 
     .to-top:hover {
         text-decoration: underline;
+        color: #414be7;
     }
 
 
@@ -143,12 +145,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    gap: 40px;
 }
 
     .gallery img {
-        width: 250px;
-        height: 250px;
+        width: 270px;
+        height: 270px;
         object-fit: cover;
         border-radius: 8px;
         box-shadow: 0 6px 18px rgba(0,0,0,0.25);
@@ -192,4 +194,7 @@ footer {
             margin-bottom: 10px;
             color: black;
         }
-
+.greek-portal {
+    text-align: center;
+    font-weight: bold;
+}
